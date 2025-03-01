@@ -1,4 +1,4 @@
-YouTube Clone Using the MERN Stack
+**YouTube Clone Using the MERN Stack**
 Welcome to the YouTube Clone project built with the MERN stack. This project replicates key features of YouTube, including user authentication, video upload and playback, commenting, and channel management. The project demonstrates real-world full-stack application development using MongoDB, Express, React, and Node.js.
 
 Table of Contents
