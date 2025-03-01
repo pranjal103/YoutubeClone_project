@@ -1,0 +1,226 @@
+/* uploadChannelVideo.css */
+
+.uploadChannelVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 56px);
+    background: linear-gradient(135deg, #121212, #181818);
+    padding: 20px;
+  }
+  
+  .uploadChannelVideo_card {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .uploadVideoTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .uploadForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .uploadForm input[type="text"],
+  .uploadForm textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .uploadForm input[type="text"]:focus,
+  .uploadForm textarea:focus {
+    outline: none;
+    border-color: #e53935;
+  }
+  
+  .uploadForm textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .uploadForm label {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 4px;
+  }
+  
+  .uploadForm div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .uploadForm input[type="file"] {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .uploadBtns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  
+  .uploadBtn-form {
+    background-color: #e53935;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .uploadBtn-form:hover {
+    background-color: #d32f2f;
+  }
+
+  .uploadChannelVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 56px);
+    background: linear-gradient(135deg, #121212, #181818);
+    padding: 20px;
+}
+
+.uploadChannelVideo_card {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.uploadVideoTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.uploadForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.uploadForm input[type="text"],
+.uploadForm textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.uploadForm input[type="text"]:focus,
+.uploadForm textarea:focus {
+    outline: none;
+    border-color: #e53935;
+}
+
+.uploadForm textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.uploadForm label {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 4px;
+}
+
+.uploadForm div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.uploadForm input[type="file"] {
+    color: #fff;
+    font-size: 14px;
+}
+
+.uploadBtns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.uploadBtn-form {
+    background-color: #e53935;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.uploadBtn-form:hover {
+    background-color: #d32f2f;
+}
+
+/* ==================== NEW CLASSES FOR BACK BUTTON ==================== */
+.backButtonContainer {
+  margin-bottom: 20px;
+  text-align: left; /* Ensures button is left-aligned inside the card */
+}
+
+.backButton {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #444;
+}
+
+  

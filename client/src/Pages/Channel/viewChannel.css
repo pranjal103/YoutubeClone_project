@@ -1,0 +1,210 @@
+/* viewChannel.css */
+
+.viewChannel {
+    background-color: #181818;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  .viewChannelPage {
+    flex: 1;
+    margin-left: 240px; /* if side navbar is open */
+    padding: 16px;
+  }
+  
+  .viewChannelPage_inactive {
+    flex: 1;
+    margin-left: 70px; /* if side navbar is collapsed */
+    padding: 16px;
+  }
+  
+  .channelBanner img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .channelInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .channelAvatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .channelDetails h2 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .channelDetails p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .channelStats {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .channelStats span {
+    margin-right: 16px;
+  }
+  
+  .channelVideos {
+    margin-top: 24px;
+  }
+  
+  .channelVideos h3 {
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+  
+  .videosGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .videoItem {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .videoItem img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .videoTitle {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+  /* New styling for channel top section using the banner as background */
+.profile_top_section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Overlay for better readability over the banner */
+  .profile_top_section_overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Channel avatar styling */
+  .profile_top_section_profile {
+    margin-right: 20px;
+  }
+  
+  .profile_top_section_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+  }
+  
+  /* Channel info styling */
+  .profile_top_section_About {
+    color: #fff;
+  }
+  
+  .profile_top_section_About_Name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .profile_top_section_info {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  /* Update the profile_top_section to show the banner correctly */
+.profile_top_section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  /* Overlay to darken the banner for readability */
+  .profile_top_section_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Ensure the avatar is clickable */
+  .profile_top_section_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  /* Channel top section (banner) */
+.profile_top_section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  /* Overlay for readability */
+  .profile_top_section_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Avatar styling */
+  .profile_top_section_profile {
+    margin-right: 20px;
+  }
+  
+  .profile_top_section_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+    cursor: pointer;
+  }

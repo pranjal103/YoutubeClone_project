@@ -1,0 +1,263 @@
+.profile{
+    display: flex;
+    width: 100%;
+    padding: 10px 13px 0 13px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.profile_page{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 270px;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_page_inactive{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_top_section{
+    width: 100%;
+    display: flex;
+    padding: 0 0 20px 0;
+}
+.profile_top_section_profile{
+    width: 150px;
+    height: 150px;
+}
+.profile_top_section_img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+.profile_top_section_About{
+    border-radius: 40px;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 10px;
+    width: 100%;
+}
+.profile_top_section_About_Name{
+    font-size: 36px;
+    font-weight: 600;
+}
+.profile_top_section_info{
+    font-size: 16px;
+    padding: 0px;
+    color: white
+}
+
+.profile_videos{
+    width: 100%;
+}
+.profile_videos_title {
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: rgb(207, 206, 206);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    justify-content: space-between; /* Ensures proper spacing */
+}
+
+/* NEW: Group the action buttons on the right */
+.channel_actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload_channel_video {
+    /* Remove margin-left so it aligns nicely in the row */
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.upload-btn {
+    background-color: #ff0000; /* YouTube red */
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.upload-btn:hover {
+    background-color: #cc0000;
+}
+
+.profileVideos{
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.profileVideo_block{
+    width: 210px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.profileVideo_block_thumbnail{
+    width: 100%;
+    height: 140px;
+}
+.profileVideo_block_thumbnail_img{
+    width: 100%;
+    height: 100%;
+}
+.profileVideo_block_detail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.profileVideo_block_detail_name{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.profileVideo_block_detail_about{
+    color: #ababab;
+    font-size: 13px;
+}
+
+.uploadBtn-form{
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.uploadBtn-form:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+/* Channel Banner: full-width header with fixed height */
+.channel_banner {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+  
+/* Channel Info Section (placed below banner) */
+.channel_info_container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+  
+/* Avatar styling */
+.profile_top_section_profile {
+    margin-right: 20px;
+}
+  
+.profile_top_section_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+  
+/* Channel info text */
+.profile_top_section_About {
+    color: #fff;
+}
+  
+.profile_top_section_About_Name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+  
+.profile_top_section_info {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* New styling for each video container and edit option */
+.profileVideo_container {
+    width: 210px; /* match the width of .profileVideo_block */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.edit_video_option {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.edit_video_option a {
+    text-decoration: none;
+    color: #ff4f4f; /* a red accent */
+    background-color: rgba(255, 79, 79, 0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.edit_video_option a:hover {
+    background-color: rgba(255, 79, 79, 0.5);
+}
+
+/* Updated styling for Delete Channel button to match Upload Video link */
+.delete_channel button {
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    background-color: #f00; /* Red background */
+    transition: background 0.3s;
+}
+
+.delete_channel button:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+/* NEW: Ensure the actions on the header are aligned together */
+.profile_videos_title .channel_actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
