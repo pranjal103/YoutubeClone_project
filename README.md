@@ -126,3 +126,17 @@ server
    git clone https://github.com/pranjal103/YoutubeClone_project.git
    cd YoutubeClone_project/server
 
+2, **Install Dependencies:**
+npm install
+
+3. **Configure Environment Variables:**
+
+***Create a .env file in the /server folder with the following:***
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+4. **Start the Backend Server:**
+npm start
+
+*Frontend Setup*
