@@ -131,7 +131,7 @@ server
 
 3. **Configure Environment Variables:**
 
-***Create a .env file in the /server folder with the following:***
+    ***Create a .env file in the /server folder with the following:***
 
 - PORT=4000
 - MONGO_URI=your_mongodb_connection_string
