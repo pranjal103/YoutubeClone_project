@@ -159,3 +159,9 @@ server
 - **Authentication:** Register or log in to manage your channel.
 - **Channel Management:** Create, update, or delete your channel and manage your videos.
 - **File Uploads:** Videos and images are uploaded using Cloudinary integration.
+
+### Demo
+Watch the demo video here: Demo Video Link
+
+### Contributing
+Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
