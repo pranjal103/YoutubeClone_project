@@ -141,3 +141,18 @@ server
 - npm start
 
 ### Frontend Setup
+
+**Navigate to the Client Directory:**
+- cd ../client
+**Install Dependencies:**
+- npm install
+**Start the React Application:**
+- npm start
+***The application will run at http://localhost:3000.***
+
+### Usage
+- **Home Page:** Browse and search for videos.
+- **Video Player:** Click on any video to watch it, interact with likes/dislikes, and add comments.
+- **Authentication:** Register or log in to manage your channel.
+- **Channel Management:** Create, update, or delete your channel and manage your videos.
+- **File Uploads:** Videos and images are uploaded using Cloudinary integration.
