@@ -144,8 +144,10 @@ server
 
 **Navigate to the Client Directory:**
 - cd ../client
+  
 **Install Dependencies:**
 - npm install
+
 **Start the React Application:**
 - npm start
 ***The application will run at http://localhost:3000.***
