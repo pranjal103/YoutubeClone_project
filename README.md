@@ -122,11 +122,11 @@ server
 ### Backend Setup
 
 1. **Clone the Repository:**
-   ```bash
+
    git clone https://github.com/pranjal103/YoutubeClone_project.git
    cd YoutubeClone_project/server
 
-2, **Install Dependencies:**
+2. **Install Dependencies:**
 npm install
 
 3. **Configure Environment Variables:**
@@ -139,4 +139,4 @@ JWT_SECRET=your_jwt_secret
 4. **Start the Backend Server:**
 npm start
 
-*Frontend Setup*
+### Frontend Setup
