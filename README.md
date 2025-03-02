@@ -108,3 +108,21 @@ This project is a fully functional YouTube clone that enables users to:
 │   └── conn.js
 └── index.js
 
+
+
+
+## Installation and Setup
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/) (local or Atlas)
+- [Git](https://git-scm.com/)
+
+### Backend Setup
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/pranjal103/YoutubeClone_project.git
+   cd YoutubeClone_project/server
+
