@@ -1,95 +1,66 @@
-# 🎥 MERN Stack YouTube Clone Project
+# YouTube Clone Using the MERN Stack
 
----
+Welcome to the YouTube Clone project built with the MERN stack. This project replicates key features of YouTube, including video browsing, playback, user interaction (likes, dislikes, and comments), and channel management. It is designed as a capstone project to demonstrate full-stack development using MongoDB, Express, React, and Node.js.
 
-## 🚀 Demo Video
+## Table of Contents
 
-Click on the image below to watch the demo video:
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Folder Structure](#folder-structure)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-[<img src="https://res.cloudinary.com/dldpmvy2l/image/upload/v1741693161/ddekewf5vrlfmgtbhvhj.png" alt="Watch the Demo" style="width:600px;">](https://res.cloudinary.com/dldpmvy2l/video/upload/v1741693335/afocuikh6xi07246x1li.mp4)
+## Project Overview
 
----
+This project is a fully functional YouTube clone that enables users to:
+- **Browse Videos:** View a grid of video thumbnails on the home page.
+- **Watch Videos:** Play videos with interactive controls including like/dislike and comments.
+- **User Interaction:** Add, edit, and delete comments on videos.
+- **Channel Management:** Create and manage channels, upload videos, and edit or delete content.
+- **User Authentication:** Register and log in using JWT-based authentication.
+- **Responsive Design:** Enjoy a consistent experience on desktop, tablet, and mobile devices.
 
-## Overview
+## Features
 
-This feature-rich **YouTube Clone** application is built using the **MERN stack** (MongoDB, Express.js, React, and Node.js) with cloud storage and secure authentication. It allows users to upload, stream, and interact with videos seamlessly—mimicking the core features of YouTube.
+### Front-End (React)
+- **Home Page:**  
+  - Responsive layout with a YouTube-style header and sidebar.
+  - Video grid display with search and filter functionality.
+- **Video Player Page:**  
+  - Video playback with controls.
+  - Real-time like/dislike updates and comment management.
+- **Channel Page:**  
+  - Channel profile featuring banner, avatar, and video listings.
+  - Options for channel owners to upload, edit, or delete videos.
+- **User Authentication:**  
+  - Signup and Login forms with JWT-based session management.
+- **File Uploads:**  
+  - Integration with Cloudinary for handling video and image uploads.
 
----
+### Back-End (Node.js & Express)
+- **API Endpoints:**  
+  - **User Routes:** Signup, Login, Logout.
+  - **Video Routes:** Upload, fetch, update, delete videos, and update view counts.
+  - **Comment Routes:** Add, update, and delete comments.
+  - **Channel Routes:** Create, update, and delete channels.
+- **Database:**  
+  - MongoDB for storing users, videos, channels, and comments.
+- **Security:**  
+  - JWT-based authentication and middleware to protect sensitive routes.
 
-## Key Functionalities
+## Technologies Used
 
-This full-stack web application offers functionalities similar to YouTube, including:
+- **Frontend:** React, React Router, Axios, Material UI, React Toastify
+- **Backend:** Node.js, Express.js, MongoDB, JWT for authentication
+- **File Uploads:** Cloudinary
+- **Version Control:** Git, GitHub
 
-- **Video Upload & Management:** Upload, manage, and delete videos.
-- **Cloud Streaming:** Stream videos directly from the cloud.
-- **Secure Authentication:** Sign up and sign in securely using JWT (JSON Web Tokens).
-- **Content Exploration:** Browse, search, and view video content.
-- **Responsive Interface:** Enjoy a clean and responsive user experience across devices.
-
-The project uses **Cloudinary** for video and image storage, **MongoDB** as the database, and **CSS** for styling. The backend is powered by **Node.js** and **Express.js**, while the frontend leverages **React** to build an interactive UI.
-
----
-
-## ✨ Features
-
-### 🎨 Modern UI Layouts
-
-#### Homepage
-- **Header:** Includes a search bar and a login/signup button for unauthenticated users.
-- **Sidebar:** A collapsible menu displaying categories and filters.
-- **Video Grid:** Shows video cards with thumbnails, titles, channel names, and view counts.
-
-#### Video Player Page
-- **Video Player:** Streams the selected video.
-- **Details Section:** Displays the video title, description, channel name, likes, and dislikes.
-- **Comments Section:** Allows users to add, edit, and delete comments.
-
-#### Channel Page
-- **Channel Management:** Enables users to create, edit, or delete videos within their channel.
-- **Channel Stats:** Displays channel-specific details such as banners, subscriber count, and video lists.
-
-### 📹 Core Functionalities
-- **User Authentication:** Secure sign-up and sign-in using JWT.
-- **Video Uploads:** Upload videos and store them securely on Cloudinary.
-- **Video Streaming:** Stream videos with optimal performance.
-- **Video Management:** View and delete uploaded videos as needed.
-- **Search & Filter:** Search videos by title or description.
-- **Interactive UI:** Clean and responsive design using CSS.
-
-### 🔐 Security
-- **Protected API Routes:** Secured with JWT to ensure data safety.
-- **Secure Token Storage:** Authentication tokens are stored securely to avoid vulnerabilities.
-
-### ⚡ Responsive Design
-- **Cross-Device Compatibility:** A user interface that adapts seamlessly across desktops, tablets, and mobile devices.
-
----
-
-## 🛠️ Technologies Used
-
-### 🌐 Frontend
-- **React:** Library for building dynamic user interfaces.
-- **React Router:** Implements client-side routing.
-- **Axios:** For making API requests.
-- **CSS:** Used for styling and creating responsive designs.
-
-### 🔙 Backend
-- **Node.js:** JavaScript runtime environment for server-side scripting.
-- **Express.js:** Lightweight framework for building REST APIs.
-
-### 💾 Database & Cloud Storage
-- **MongoDB:** NoSQL database for storing user and video data.
-- **Cloudinary:** For secure storage and management of video uploads.
-
-### 🔐 Authentication
-- **JWT (JSON Web Tokens):** Provides secure user authentication and authorization.
-
-### 🧰 Version Control
-- **Git:** For tracking changes and collaborating on the source code.
-
----
-
-## 📂 Folder Structure
+## Folder Structure
 
 ```plaintext
 client
@@ -135,5 +106,35 @@ server
 ├── middleware
 │   └── authentication.js
 ├── Connections
-│   └── conn.js  
+│   └── conn.js
 └── index.js
+
+
+# YouTube Clone Using the MERN Stack
+
+## Installation and Setup
+
+### Prerequisites
+
+- **Node.js**  
+- **MongoDB** (local or Atlas)  
+- **Git**
+
+### Backend Setup
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/pranjal103/YoutubeClone_project.git
+   cd YoutubeClone_project/server
+
+## Installation and Setup
+
+### Backend Setup
+
+2. **Install Dependencies:**
+
+   ```bash
+   npm install
+
+
