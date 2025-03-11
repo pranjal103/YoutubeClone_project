@@ -61,7 +61,6 @@ This project is a fully functional YouTube clone that enables users to:
 - **Version Control:** Git, GitHub
 
 ## Folder Structure
-
 ```plaintext
 client
 ├── src
@@ -110,31 +109,59 @@ server
 └── index.js
 
 
-# YouTube Clone Using the MERN Stack
+
 
 ## Installation and Setup
 
 ### Prerequisites
 
-- **Node.js**  
-- **MongoDB** (local or Atlas)  
-- **Git**
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/) (local or Atlas)
+- [Git](https://git-scm.com/)
 
 ### Backend Setup
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/pranjal103/YoutubeClone_project.git
-   cd YoutubeClone_project/server
-
-## Installation and Setup
-
-### Backend Setup
+- git clone https://github.com/pranjal103/YoutubeClone_project.git
+- cd YoutubeClone_project/server
 
 2. **Install Dependencies:**
+- npm install
 
-   ```bash
-   npm install
+3. **Configure Environment Variables:**
 
+    ***Create a .env file in the /server folder with the following:***
 
+- PORT=4000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+
+4. **Start the Backend Server:**
+- npm start
+
+### Frontend Setup
+
+**Navigate to the Client Directory:**
+- cd ../client
+  
+**Install Dependencies:**
+- npm install
+
+**Start the React Application:**
+- npm start
+
+***The application will run at http://localhost:3000.***
+
+### Usage
+- **Home Page:** Browse and search for videos.
+- **Video Player:** Click on any video to watch it, interact with likes/dislikes, and add comments.
+- **Authentication:** Register or log in to manage your channel.
+- **Channel Management:** Create, update, or delete your channel and manage your videos.
+- **File Uploads:** Videos and images are uploaded using Cloudinary integration.
+
+### Demo
+Watch the demo video here: Demo Video Link
+
+### Contributing
+Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
