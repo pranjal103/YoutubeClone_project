@@ -178,3 +178,50 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 
 ### Contact
 ***Email*** - pranjaltogalekar@gmail.com
+
+## License
+
+This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE) file.
+
+## Roadmap
+
+- **Enhanced UI/UX:** Implement additional responsive improvements and animations.
+- **Advanced Search:** Improve search functionality with auto-suggestions and filtering by categories.
+- **User Profiles:** Expand user profile functionality to include more customization options.
+- **API Expansion:** Add more detailed API endpoints and documentation for third-party integrations.
+- **Testing Suite:** Develop a comprehensive testing suite for both front-end and back-end components.
+
+## Testing
+
+### Frontend Testing
+- Use tools like Jest and React Testing Library to ensure components render correctly and user interactions work as expected.
+
+### Backend Testing
+- Implement tests with Mocha or Jest to validate API endpoints and data handling.
+
+### End-to-End Testing
+- Consider using Cypress to simulate user flows and catch integration issues early.
+
+## API Documentation
+
+### User Authentication Endpoints
+- `POST /api/user/signup` - Register a new user.
+- `POST /api/user/login` - Log in an existing user and return a JWT.
+
+### Video Endpoints
+- `POST /api/video/upload` - Upload a new video.
+- `GET /api/video/:id` - Retrieve video details.
+- `PUT /api/video/:id` - Update video details.
+- `DELETE /api/video/:id` - Delete a video.
+
+### Comment Endpoints
+- `POST /api/comment/add` - Add a comment to a video.
+- `PUT /api/comment/:id` - Edit a comment.
+- `DELETE /api/comment/:id` - Remove a comment.
+
+### Channel Endpoints
+- `POST /api/channel/create` - Create a new channel.
+- `GET /api/channel/:id` - Fetch channel details.
+- `PUT /api/channel/:id` - Update channel information.
+- `DELETE /api/channel/:id` - Delete a channel.
+
