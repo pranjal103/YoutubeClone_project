@@ -14,7 +14,7 @@ Description: Adds a new comment to a video. If the user is not authenticated,
 --------------------------------------------------------------------------- */
 exports.addComment = async (req, res) => {
   try {
-    const userId = req.user ? req.user._id : "607d1b2f5b3c3a2493d2f1";
+    const userId = req.user._id;
     const { video, text } = req.body;
     const comment = new Comment({
       user: userId,
