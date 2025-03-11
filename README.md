@@ -12,6 +12,7 @@ Welcome to the YouTube Clone project built with the MERN stack. This project rep
 - [Usage](#usage)
 - [Demo](#demo)
 - [Contributing](#contributing)
+- contact
 
 ## Project Overview
 
@@ -168,3 +169,6 @@ Click on the image below to watch the demo video:
 
 ### Contributing
 Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
+
+### Contact
+***Email*** - pranjaltogalekar@gmail.com
