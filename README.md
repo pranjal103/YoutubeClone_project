@@ -1,5 +1,7 @@
 # YouTube Clone Using the MERN Stack
 
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/pranjal103/YoutubeClone_project) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/pranjal103/YoutubeClone_project)](https://github.com/pranjal103/YoutubeClone_project/stargazers)
+
 Welcome to the YouTube Clone project built with the MERN stack. This project replicates key features of YouTube, including video browsing, playback, user interaction (likes, dislikes, and comments), and channel management. It is designed as a capstone project to demonstrate full-stack development using MongoDB, Express, React, and Node.js.
 
 ## Table of Contents
@@ -13,6 +15,10 @@ Welcome to the YouTube Clone project built with the MERN stack. This project rep
 - [Demo](#demo)
 - [Contributing](#contributing)
 - contact
+- [License](#license)
+- [Roadmap](#roadmap)
+- [Testing](#testing)
+- [API Documentation](#api-documentation)
 
 ## Project Overview
 
@@ -106,6 +112,7 @@ server
 ├── Connections
 │   └── conn.js
 └── index.js
+
 ```
 
 
