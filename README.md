@@ -161,7 +161,7 @@ server
 - **File Uploads:** Videos and images are uploaded using Cloudinary integration.
 
 ### Demo
-Watch the demo video here: Demo Video Link
+Watch the demo video here: 
 Click on the image below to watch the demo video:
 
 [<img src="https://res.cloudinary.com/dldpmvy2l/image/upload/v1741693161/ddekewf5vrlfmgtbhvhj.png" alt="Watch the Demo" style="width:600px;">](https://res.cloudinary.com/dldpmvy2l/video/upload/v1741693335/afocuikh6xi07246x1li.mp4)
