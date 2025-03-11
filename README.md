@@ -205,23 +205,56 @@ This project is licensed under the MIT License. For more details, please see the
 ## API Documentation
 
 ### User Authentication Endpoints
-- `POST /api/user/signup` - Register a new user.
-- `POST /api/user/login` - Log in an existing user and return a JWT.
+All user authentication routes are prefixed with `/auth`.
+- `POST /auth/signup`  
+  Registers a new user.
+- `POST /auth/login`  
+  Authenticates an existing user and returns a JWT.
+- `POST /auth/logout`  
+  Logs out the authenticated user by clearing authentication tokens.
 
 ### Video Endpoints
-- `POST /api/video/upload` - Upload a new video.
-- `GET /api/video/:id` - Retrieve video details.
-- `PUT /api/video/:id` - Update video details.
-- `DELETE /api/video/:id` - Delete a video.
+These endpoints are prefixed with `/api`.
+- `POST /api/video/upload`  
+  Upload a new video. (Authentication required)
+- `GET /api/allVideo`  
+  Retrieve all videos.
+- `GET /api/getVideoById/:id`  
+  Retrieve details of a specific video by its ID.
+- `GET /api/:userId/channel`  
+  Retrieve all videos uploaded by a specific user.
+- `PUT /api/video/like/:id`  
+  Like a video. (Authentication required)
+- `PUT /api/video/dislike/:id`  
+  Dislike a video. (Authentication required)
+- `PUT /api/video/view/:id`  
+  Increment the view count for a video. (Authentication required)
+- `DELETE /api/video/:id`  
+  Delete a video. (Authentication required)
+- `PUT /api/video/:id`  
+  Update video details. (Authentication required)
 
 ### Comment Endpoints
-- `POST /api/comment/add` - Add a comment to a video.
-- `PUT /api/comment/:id` - Edit a comment.
-- `DELETE /api/comment/:id` - Remove a comment.
+These endpoints are prefixed with `/commentApi`.
+- `POST /commentApi/comment`  
+  Add a new comment to a video. (Authentication required)
+- `GET /commentApi/comment/:videoId`  
+  Retrieve all comments for a specific video.
+- `PUT /commentApi/updateComment/:commentId`  
+  Update an existing comment. (Authentication required)
+- `DELETE /commentApi/deleteComment/:commentId`  
+  Delete a comment. (Authentication required)
 
 ### Channel Endpoints
-- `POST /api/channel/create` - Create a new channel.
-- `GET /api/channel/:id` - Fetch channel details.
-- `PUT /api/channel/:id` - Update channel information.
-- `DELETE /api/channel/:id` - Delete a channel.
+These endpoints are prefixed with `/api`.
+- `POST /api/channel`  
+  Create a new channel. (Authentication required)
+- `GET /api/channel/user/:userId`  
+  Retrieve all channels for a specific user. (Authentication required)
+- `GET /api/channel/:channelId`  
+  Retrieve a single channel by its ID. (Authentication required)
+- `PUT /api/channel/:channelId`  
+  Update channel information. (Authentication required)
+- `DELETE /api/channel/:channelId`  
+  Delete a channel. (Authentication required)
 
