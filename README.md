@@ -14,7 +14,7 @@ Welcome to the YouTube Clone project built with the MERN stack. This project rep
 - [Usage](#usage)
 - [Demo](#demo)
 - [Contributing](#contributing)
-- contact
+- [contact](#contact)
 - [License](#license)
 - [Roadmap](#roadmap)
 - [Testing](#testing)
